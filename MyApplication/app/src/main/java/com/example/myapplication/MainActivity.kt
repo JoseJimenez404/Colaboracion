@@ -27,9 +27,11 @@ class MainActivity : ComponentActivity() {
         createNotificationChannel()
 
         val button1: Button = findViewById(R.id.button1)
+        val button2: Button = findViewById(R.id.button2)
 
 
         button1.setOnClickListener { sendNotification("Jose Jimenez", "The Mikeee") }
+        button2.setOnClickListener { sendNotification("Sergio Amaury", "MauMau heroes de puro corazon") }
         
     }
 
